@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "FNvJwR5cbSLSNGa6hTsikzdZOOQaAVBAHhrZrIo//Bc=",
+  "Source": "MathEquation.WebApi",
+  "BasePath": "_content/MathEquation.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

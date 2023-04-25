@@ -1,0 +1,44 @@
+﻿@page "/fetchdata"
+@inject HttpClient Http
+
+<PageTitle>Saved Equations</PageTitle>
+
+<h1>Saved Equations</h1>
+
+@if (equations == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Equation</th>
+                <th>X Value</th>
+                <th>Y value</th>
+                <th>Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var equation in equations)
+            {
+                <tr>
+                    <td>@equation.equation</td>
+                    <td>@equation.x_value</td>
+                    <td>@equation.y_value</td>
+                    <td>@equation.date_completed.ToShortDateString()</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private Common.MathEquation[]? equations;
+
+    protected override async Task OnInitializedAsync()
+    {
+        equations = await Http.GetFromJsonAsync<Common.MathEquation[]>("/");
+    }
+}

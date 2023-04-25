@@ -1,0 +1,15 @@
+C:\Users\MongeziSithole\source\test\MathEquation\MathEquation.Services\bin\Debug\net6.0\MathEquation.Services.deps.json
+C:\Users\MongeziSithole\source\test\MathEquation\MathEquation.Services\bin\Debug\net6.0\MathEquation.Services.dll
+C:\Users\MongeziSithole\source\test\MathEquation\MathEquation.Services\bin\Debug\net6.0\MathEquation.Services.pdb
+C:\Users\MongeziSithole\source\test\MathEquation\MathEquation.Services\bin\Debug\net6.0\MathEquation.Common.dll
+C:\Users\MongeziSithole\source\test\MathEquation\MathEquation.Services\bin\Debug\net6.0\MathEquation.Common.pdb
+C:\Users\MongeziSithole\source\test\MathEquation\MathEquation.Services\obj\Debug\net6.0\MathEquation.Services.csproj.AssemblyReference.cache
+C:\Users\MongeziSithole\source\test\MathEquation\MathEquation.Services\obj\Debug\net6.0\MathEquation.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MongeziSithole\source\test\MathEquation\MathEquation.Services\obj\Debug\net6.0\MathEquation.Services.AssemblyInfoInputs.cache
+C:\Users\MongeziSithole\source\test\MathEquation\MathEquation.Services\obj\Debug\net6.0\MathEquation.Services.AssemblyInfo.cs
+C:\Users\MongeziSithole\source\test\MathEquation\MathEquation.Services\obj\Debug\net6.0\MathEquation.Services.csproj.CoreCompileInputs.cache
+C:\Users\MongeziSithole\source\test\MathEquation\MathEquation.Services\obj\Debug\net6.0\MathEquation.Services.csproj.CopyComplete
+C:\Users\MongeziSithole\source\test\MathEquation\MathEquation.Services\obj\Debug\net6.0\MathEquation.Services.dll
+C:\Users\MongeziSithole\source\test\MathEquation\MathEquation.Services\obj\Debug\net6.0\refint\MathEquation.Services.dll
+C:\Users\MongeziSithole\source\test\MathEquation\MathEquation.Services\obj\Debug\net6.0\MathEquation.Services.pdb
+C:\Users\MongeziSithole\source\test\MathEquation\MathEquation.Services\obj\Debug\net6.0\ref\MathEquation.Services.dll

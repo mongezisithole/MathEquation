@@ -1,0 +1,82 @@
+﻿@page "/"
+@inject HttpClient Http
+@inject IJSRuntime JsRuntime
+@using System.Net
+
+<PageTitle>Calculator</PageTitle>
+
+<p role="status">Math Equation Calculator</p>
+
+<table border="1" cellpadding="5">
+    <tbody>
+        <tr>
+            <td>
+                Enter Equation (Hint: y = x + 2):
+            </td>
+
+            <td>
+                <input @bind="equation" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Enter value of x:
+            </td>
+
+            <td>
+                <input @bind="xValue" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Answer:
+            </td>
+            <td>
+                @yValue
+            </td>
+        </tr>
+    </tbody>
+</table>
+<button class="btn btn-primary" style="margin:5px" @onclick="Calculate">Calculate</button>
+
+@code {
+    private double? xValue = null;
+    private string? equation = null;
+    private double? yValue = null;
+
+
+    private async Task Calculate()
+    {
+        if (string.IsNullOrEmpty(equation))
+        {
+            await JsRuntime.InvokeVoidAsync("alert", $"Error! Please enter equation");
+            return;
+        }
+
+        if (!xValue.HasValue)
+        {
+            await JsRuntime.InvokeVoidAsync("alert", $"Error! Please enter value of x");
+            return;
+        }
+
+        var response = await Http.PostAsJsonAsync($"/calcEquation?equation={WebUtility.UrlEncode(equation)}&x_value={xValue}", new { });
+        var results = await response.Content.ReadFromJsonAsync<Common.MathEquation>();
+
+        if (results == null || results is List<string>)
+        {
+            await JsRuntime.InvokeVoidAsync("alert", $"Error! {results}");
+            return;
+        }
+
+        var mathEquation = results as Common.MathEquation;
+
+        if (mathEquation == null)
+        {
+            await JsRuntime.InvokeVoidAsync("alert", $"Unknown Error!");
+            return;
+        }
+
+        yValue = mathEquation.y_value;
+    }
+}
+

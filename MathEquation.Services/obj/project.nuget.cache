@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "4BeQmcoJN1O3Fjn9KKQOXh5T77syGqrHi59PHUXB0Niau1zNWrjFU/NQjSoCcXQVgBGyM5jwdoZhvx+QwN4cfw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\MongeziSithole\\source\\test\\MathEquation\\MathEquation.Services\\MathEquation.Services.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MongeziSithole\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
+    "C:\\Users\\MongeziSithole\\.nuget\\packages\\microsoft.data.sqlite\\7.0.5\\microsoft.data.sqlite.7.0.5.nupkg.sha512",
+    "C:\\Users\\MongeziSithole\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.5\\microsoft.data.sqlite.core.7.0.5.nupkg.sha512",
+    "C:\\Users\\MongeziSithole\\.nuget\\packages\\org.matheval\\1.0.0.3\\org.matheval.1.0.0.3.nupkg.sha512",
+    "C:\\Users\\MongeziSithole\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.4\\sqlitepclraw.bundle_e_sqlite3.2.1.4.nupkg.sha512",
+    "C:\\Users\\MongeziSithole\\.nuget\\packages\\sqlitepclraw.core\\2.1.4\\sqlitepclraw.core.2.1.4.nupkg.sha512",
+    "C:\\Users\\MongeziSithole\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.4\\sqlitepclraw.lib.e_sqlite3.2.1.4.nupkg.sha512",
+    "C:\\Users\\MongeziSithole\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.4\\sqlitepclraw.provider.e_sqlite3.2.1.4.nupkg.sha512",
+    "C:\\Users\\MongeziSithole\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}
